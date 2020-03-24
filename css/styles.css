@@ -182,3 +182,6 @@ ol.oglavl>li>span>span>span{
   left: 30%;
   /*display: none;*/
 }
+@media (max-width: 1550px) {
+  .Dotted {display: none;}
+}
