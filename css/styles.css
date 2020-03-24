@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #f5f7fa;
+}
+
+body>div{
+  display: flex;
+}
+
+.LeftSide{
+  background-color: #1e2939;
+  width: 350px;
+  height: auto;
+  margin: 40px 0 40px 40px;
+}
+
+.LeftSide>img{
+  margin-top: 40px;
+}
+
+.LeftSide>div>h3{
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+.LeftSide ul>li{
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.LeftSide ul>li:before{
+  content: "\2022";
+  color: orangered;
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.Contacts>div{
+  margin-left: 40px;
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+.Contacts>div>a{
+  margin-left: 10px;
+  color: #9b9ea2;
+  font-size: 12px;
+}
+/*
+.linkToCert{
+  width: 200px;
+  border: solid 1px red;
+  
+}
+*/
+.linkToCert>li>a{
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}
+
+
+/*--------------RightSide----------------*/
+.RightSide{
+  margin: 40px 40px 40px 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(71,69,71,0.6);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(71,69,71,0.6);
+  box-shadow: 4px 4px 10px 0px rgba(71,69,71,0.6);
+}
+.RightSide>div{
+  margin: 80px 100px;
+}
+
+.RightSide>div>div h2{
+  font-size: 14px;
+}
+
+.RightSide>div>div h1{
+  font-size: 40px;
+}
+.RightSide>div>div p{
+  width: 500px;
+  height: 80px;
+  margin-bottom: 0px;
+  line-height: 22px;
+}
+
+h3{
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 0px;
+  /*border: solid 1px green;*/
+}
+
+/*------------Projects-----------------*/
+ol.oglavl {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-left: 1em;
+  width: auto;
+  max-width: 900px;
+}
+
+ol.oglavl li span a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
+}  
+
+ol.oglavl>li>span{
+  display: flex;
+  justify-content: space-between;
+}
+   
+ol.oglavl>li>span>span>span{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Dotted{
+  width: 350px;
+  height: 20px;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px; 
+  border-bottom-color: grey; 
+}
+/* ------------ Work Experience------------*/
+.WorkExperience>h3{
+  margin-top: 50px;
+}
+
+.Company{
+  color: #ff6b08;
+}
+
+.WorkExperience div>h4{
+  margin-bottom: 8px;
+}
+
+.WorkExperience div>span{
+  font-size: 12px;
+}
+
+.WorkExperience div ul{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 1em;
+}
+
+.Razdelitel{
+  font-weight: 700;
+  margin: 0px 3px;
+}
+
+ /* ----- Work Experience--------*/
+
+.Education>div>h4{
+  margin-bottom: 0px;
+  /*border: solid 1px red;*/
+}
+
+.Education>div>h5{
+  margin-top: 10px;
+}
+
+ .Education div>span{
+  font-size: 12px;
+}
+
+#hi{
+  position: absolute;
+  top: 300px;
+  left: 30%;
+  /*display: none;*/
+}
