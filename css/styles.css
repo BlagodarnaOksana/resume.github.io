@@ -90,7 +90,13 @@ h3{
   color: black;
   margin-top: 20px;
   margin-left: 0px;
-  /*border: solid 1px green;*/
+}
+
+.LinksProfile{
+  padding-right: 50px;
+  margin: 0px;
+  color: #0c3366;
+  font-size: 12px;
 }
 
 /*------------Projects-----------------*/
