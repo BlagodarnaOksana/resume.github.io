@@ -50,13 +50,7 @@ body>div{
   color: #9b9ea2;
   font-size: 12px;
 }
-/*
-.linkToCert{
-  width: 200px;
-  border: solid 1px red;
-  
-}
-*/
+
 .linkToCert>li>a{
   color: #ffffff;
   font-size: 12px;
@@ -165,15 +159,15 @@ ol.oglavl>li>span>span>span{
 
 .Education>div>h4{
   margin-bottom: 0px;
-  /*border: solid 1px red;*/
 }
 
 .Education>div>h5{
   margin-top: 10px;
+  margin-bottom: 5px;  
 }
 
  .Education div>span{
-  font-size: 12px;
+  font-size: 12px;  
 }
 
 #hi{
@@ -184,4 +178,8 @@ ol.oglavl>li>span>span>span{
 }
 @media (max-width: 1550px) {
   .Dotted {display: none;}
+}
+
+@media (max-width: 1220px) {
+  .Technol {display: none;}
 }
